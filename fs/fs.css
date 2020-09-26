@@ -1,0 +1,362 @@
+#fs .center {
+    margin-top: 10px;
+    height: 480px;
+    position: relative;
+}
+
+#fs .fs-left {
+    float: left;
+    background-color: #fefefe;
+    width: 190px;
+    padding-top: 10px;
+    height: 470px;
+    position: relative;
+}
+
+.fs-left .menu>li {
+    padding-left: 10px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.fs-left .menu>li.hover {
+    background-color: #eee;
+}
+.fs-left .menu>li>a {
+    color: #333;
+}
+
+.fs-left .menu-list {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 1000px;
+    height: 480px;
+    background-color: #fff;
+    top: 0;
+    left: 190px;
+    padding: 15px 0 10px 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+    box-sizing: border-box;
+}
+.menu-list>.left {
+    width: 800px;
+    height: 480px;
+    float: left;
+    margin-right: 10px;
+}
+.menu-list>.left .first-nav {
+    margin-left: 20px;
+}
+.menu-list>.left .first-nav>li a {
+    color: #fff;
+}
+.menu-list>.left .first-nav>li{
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    height: 24px;
+    background-color: #333;
+    line-height: 24px;
+    font-size: 12px;
+}
+.menu-list>.left .first-nav>li:hover{
+    background-color: #c81623;
+}
+.menu-list>.left .second-nav a:hover,
+.fs-left .menu li a:hover {
+    color: #c81623
+}
+.menu-list>.left>.second-nav {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.menu-list>.left>.second-nav dl {
+    margin-top: 10px;
+}
+.menu-list>.left>.second-nav dl .dt-container {
+    width: 700px;
+    float: left;
+}
+.menu-list>.left>.second-nav dl dt {
+    font-size: 12px;
+    font-weight: 700;
+    float: left;
+    margin-right: 20px;
+    width: 80px;
+    text-align: right;
+}
+.menu-list>.left>.second-nav dl dt a {
+    color: #333;
+}
+.menu-list>.left>.second-nav dl dd {
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+.menu-list>.left>.second-nav dd a {
+    color: #666;
+}
+
+.menu-list>.right {
+    width: 178px;
+    float: right;
+    height: 480px;
+}
+.menu-list>.right>img.brand {
+    float: left;
+    width: 88px;
+    margin-right: 1px;
+}
+.menu-list>.right>img.sample {
+    float: left;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#fs .center .swiper-wrapper {
+    margin: 0 10px 0 10px;
+    width: 790px;
+    height: 480px;
+    float: left;
+}
+
+#fs .center .swiper-wrapper .fs-primary {
+    float: left;
+    width: 590px;
+    height: 480px;
+    overflow: hidden;
+    margin-right: 10px
+}
+.swiper-wrapper>.fs-primary img {
+    width: 590px;
+    height: 480px;
+}
+
+#fs .center .swiper-wrapper .fs-second {
+    float: left;
+    width: 190px;
+    height: 480px;
+    overflow: hidden;
+}
+.swiper-wrapper>.fs-second img {
+    width: 190px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+#fs .fs-right {
+    float: left;
+    width: 190px;
+    height: 480px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.fs-right>.user {
+    width: 190px;
+    height: 102px;
+    position: relative;;
+}
+.fs-right>.user>.login {
+    height: 67px;
+    font-size: 12px;
+    position: relative;
+}
+.fs-right>.user>.login>.head{
+    position: absolute;
+    left: 18px;
+    top: 11px;   
+}
+.fs-right>.user>.login>.head img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.fs-right>.user>.login>.reg {
+    position: absolute;
+    left: 70px;
+    top: 16px;
+    width: 82px;
+}
+.fs-right>.user>.login>.reg>p {
+    margin-top: 5px;
+}
+.fs-right>.user>.login>.reg a {
+    color: #333;
+}
+.fs-right>.user>.login>.reg>a {
+    color: #666;
+}
+.fs-right>.user>.login>.reg a:hover {
+    color: #c81623;
+}
+.fs-right>.user>.btns {
+    height: 35px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.fs-right>.user>.btns .btn {
+    font-size: 12px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 13px;
+    margin-right: 8px;
+    transition: background .3s ease,color .3s ease;
+}
+.fs-right>.user>.btns .new {
+    background-color: #e1251b;
+    color: #fff;
+}
+.fs-right>.user>.btns .member {
+    background: #363634;
+    color: #e5d790;
+}
+.fs-right>.user>.btns .new:hover,
+.fs-right>.user>.btns .member:hover{
+    background-color: #c81623;
+    color: #fff;
+}
+.fs-right>.user::after,
+.fs-right>.msg::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background-color: #eee;
+    left: calc(50% - 60px);
+    bottom: 0;
+}
+.fs-right>.msg {
+    width: 190px;
+    height: 130px;
+    position: relative;
+}
+.fs-right>.msg>.header {
+    width: 190px;
+    height: 20px;
+    padding-top: 10px;
+    margin-bottom: 8px;
+}
+.fs-right>.msg>.header h5 {
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.fs-right>.msg>.header a {
+    font-size: 12px;
+    float: right;
+    margin-right: 15px;
+    color: #333;
+}
+.fs-right>.msg>.header a:hover,
+.fs-right>.msg>.news a:hover {
+    color: #e1251b;
+}
+.fs-right>.msg>.news {
+    width: 160px;
+    margin: 0 auto;
+    font-size: 12px; 
+}
+.fs-right>.msg>.news li {
+    margin-bottom: 6px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fs-right>.msg>.news li a {
+    color: #666;
+}
+.fs-right>.msg>.news .tag {
+    display: inline-block;
+    width: 35px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 6px;
+    color: #e1251b;
+    background-color: rgba(225,37,27,.08);
+}
+.fs-right>.icons {
+    width: 189px;
+    height: 240px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+.fs-right>.icons>li {
+    float: left;
+    width: 63px;
+    height: 60px;
+    text-align: center;
+    transition: transform .2s ease;
+}
+.fs-right>.icons>li a {
+    font-size: 28px;
+}
+.fs-right>.icons>li p {
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+}
+.fs-right>.icons>li p.layer-on::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    bottom: 3px;
+    left: calc(50% - 12px);
+    background-color: #e1251b;
+}
+.fs-right>.icons>li:hover p{
+    color: #e1251b;
+}
+.fs-right>.layer {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 215px;
+    padding: 0 15px;
+    bottom: -215px;
+    background-color: #fff;
+    transition: bottom .2s ease;
+}
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.fs-right>.layer>.loading {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: calc(50% - 15px);
+    border-radius: 50%;
+    border: 2px solid #80bfff;
+    border-left-color: transparent;
+    transform: rotate(0deg);
+    animation: loading .5s linear infinite;
+}
+.fs-right>.layer>.close-btn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: calc(50% - 10px);
+    bottom: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,153 @@
+#seckill>.center {
+    margin-top: 30px;
+}
+#seckill .cutdown {
+    width: 190px;
+    height: 260px;
+    float: left;
+}
+.cutdown>a {
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+}
+.cutdown>a>h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 31px;
+    font-weight: bold;
+}
+.cutdown>a>p {
+    font-weight: bold;
+    margin-top: 90px;
+    font-size: 14px;
+    color: #fff;
+}
+.cutdown>a>p>strong {
+    font-size: 18px;
+    vertical-align: -2px;
+}
+.cutdown>a>ul {
+    color: #fff;
+    font-weight: bold;
+    margin: 14px 0 0 30px;
+}
+.cutdown>a li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 0;
+    background-color: #2f3430;
+    font-size: 20px;
+    color: #fff;
+}
+.cutdown>a>ul>span {
+    float: left;
+    padding: 0 9px;
+}
+#seckill .goods-list {
+    float: left;
+    width: 800px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.goods-list .items .wrap {
+    float: left;
+    width: 200px;
+    height: 260px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.goods-list .items .wrap img {
+    width: 140px;
+    height: 140px;
+}
+.goods-list .items .wrap h6 {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goods-list .items .wrap .miaosha {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #e1251b;
+    border-right-color: #fff;
+    background-image: linear-gradient(120deg, #e1251b 87px, #fff 87px);
+}
+.goods-list .items .wrap .miaosha i {
+    font-size: 12px;
+    font-weight: normal;
+}
+.goods-list .items .wrap .origin {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #e1251b;
+    border-left-color: transparent;
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+    vertical-align: 1.5px;
+}
+#seckill .hotgoods {
+    text-align: center;
+    width: 200px;
+    height: 260px;
+    overflow: hidden;
+    font-size: 14px;
+    background-image: linear-gradient(180deg, #fff 180px, #c2c2d6 260px);
+}
+.hotgoods .items {
+    width: 200px;
+    height: 260px;
+}
+.hotgoods .items img{
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+}
+.hotgoods .items .dec {
+    color: #666;
+    padding: 5px 0;
+}
+.hotgoods .items .discount {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hotgoods .items .buy {
+    display: inline-block;
+    width: 80px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #e1251b;
+    border-radius: 13px;
+    border: 1px solid #e1251b;
+    transition: background-color .3s ease;
+}
+.hotgoods .items .buy:hover {
+    color: #fff;
+    background-color: #c81623;
+}

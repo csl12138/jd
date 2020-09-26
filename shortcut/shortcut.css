@@ -1,0 +1,191 @@
+body {
+    background-color: #f4f4f4;
+}
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+    background-color: #e3e4e5;
+    position: relative;
+    z-index: 2;
+}
+.shortcut a:hover {
+    color: #f10215;
+}
+.shortcut .reg, .shortcut .buy {
+    color: #f10215;
+}
+.shortcut .mycity {
+    float: left;
+    position: relative;
+}
+.shortcut .mycity .drop {
+    padding: 0 7px;
+    position: relative;
+    z-index: 5;
+    border: 1px solid transparent;
+}
+.shortcut .mycity .drop .iconfont {
+    color: #f10215;
+}
+.shortcut .mycity .drop-down {
+    position: absolute;
+    background-color: #fff;
+    top: 30px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, .1);
+    display: none;
+}
+.shortcut .mycity .drop-down .province dd {
+    float: left;
+    width: 60px;
+    height: 24px;
+    padding: 5px 0;
+}
+.shortcut .mycity .drop-down .province dd a {
+    display: inline-block;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+}
+.shortcut .mycity .drop-down .province dd a:hover {
+    background-color: #f4f4f4
+}
+.shortcut .mycity .drop-down .province dd a.active {
+    background-color: #f10215;
+    color: #fff;
+    border-radius: 5px;
+}
+.shortcut .mycity .area {
+    padding: 0 8px;
+    margin-top: 5px;
+}
+.shortcut .mycity .area dt {
+    padding: 10px 0;
+}
+.shortcut .mycity .area dd{
+    float: left;
+    width: 142px;
+}
+.shortcut .mycity:hover .drop{
+    background-color: #fff;
+    border-color: #ccc;
+    border-bottom-color: #fff;
+}
+.shortcut .mycity:hover .drop-down {
+    display: block;
+}
+.shortcut ul {
+    float: right;
+}
+.shortcut ul li {
+    float: left;
+    position: relative;
+}
+.shortcut ul li > .title {
+    padding: 0 7px; 
+    height: 32px;
+}
+.shortcut ul li > .title > .iconfont {
+    vertical-align: middle;
+}
+.shortcut ul li > .title {
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.shortcut ul li:hover .drop {
+    background-color: #fff;
+    border-color: #ccc;
+    border-bottom-color: #fff;
+}
+.shortcut ul li:hover .drop-down {
+    display: block;
+}
+.shortcut ul .line {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 10px 2px;
+    background-color: #ccc;
+}
+.shortcut ul .drop-down dl {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.shortcut ul .drop-down dl.divider {
+    border-bottom: 1px solid #eee;
+}
+.shortcut ul .drop-down {
+    display: none;
+    position: absolute;
+    top: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .15);
+    word-break: keep-all;
+    background-color: #fff;
+}
+.shortcut ul .myjd .drop-down {
+    width: 280px;
+    left: 0px;
+}
+.shortcut ul .myjd .drop-down dd {
+    width: 126px;
+    float: left;
+}
+.shortcut ul .purchase .drop-down {
+    width: 140px;
+    left: 0px;
+}
+.shortcut ul .purchase .drop-down dd {
+    width: 56px;
+    float: left;
+}
+.shortcut ul .service .drop-down {
+    width: 170px;
+    right: 0px;
+}
+.shortcut ul .service .drop-down dt {
+    font-weight: bold;
+    color: #666;
+}
+.shortcut ul .service .drop-down dd {
+    width: 65px;
+    float: left;
+}
+.shortcut ul .nav .drop-down {
+    padding: 10px 0;
+    width: 1190px;
+    box-sizing: border-box;
+    right: -75px;
+}
+.shortcut ul .nav .drop-down dl {
+    float: left;
+    width: 260px;
+}
+.shortcut ul .nav .drop-down .y {
+    float: left;
+    width: 1px;
+    height: 172px;
+    margin-top: 8px;
+    background-color: #eee;
+}
+.shortcut ul .nav .drop-down dl.special {
+    width: 340px;
+}
+.shortcut ul .nav .drop-down dt {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 6px;
+}
+.shortcut ul .nav .drop-down dd {
+    width: 85px;
+    float: left;
+}

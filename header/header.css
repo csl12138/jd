@@ -1,0 +1,206 @@
+#header {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+#header .center {
+    height: 140px;
+    position: relative;
+}
+#header .logo {
+    float: left;
+    width: 190px;
+    height: 120px;
+    margin-top: 10px;
+    position: relative;
+}
+#header .logo .logo-static {
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite.png);
+    background-position: 0 0;
+    display: block;
+    height: 120px;
+    font-size: 0px;
+}
+#header .logo .logo-gif {
+    display: none;
+    background-image: url("//img1.360buyimg.com/da/jfs/t1/31918/19/6335/274370/5c90a8beEefd9bfb9/e24970e34ce77262.gif?v=0.5162548226680377");
+    background-color: #fff;
+    background-size: 134px 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#header .logo .dec {
+    display: none;
+    position: absolute;
+    text-align: center;
+    left: 46px;
+    top: 30px;
+}
+#header .logo .dec strong {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+#header .logo .dec span {
+    background-color: #fff;
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+#header .logo .dec span a {
+    color: #000;
+}
+
+#header .search {
+    float: left;
+    margin-left: 85px;
+    margin-top: 30px;
+    position: relative;
+}
+#header .search .search-form {
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    position: relative;
+}
+#header .search .search-form .search-inp {
+    margin-top: 2px;
+    width: 425px;
+    height: 26px;
+    line-height: 26px;
+    padding: 2px 44px 2px 17px;
+    border: none;
+    outline: none;
+}
+#header .search .search-form button {
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #e1251b;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
+#header .search .search-form button:hover {
+    background-color: #c81623
+}
+#header .search .search-form span {
+    position: absolute;
+    right: 75px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+}
+#header .search .search-list {
+    display: none;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 37px;
+    width: 488px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#header .search .search-list li {
+    font-size: 15px;
+    cursor: pointer;
+    padding-left: 6px;
+    height: 30px;
+    line-height: 30px;
+}
+#header .search .search-list li .numbers {
+    color: #999;
+    float: right;
+    font-size: 12px;
+    padding-right: 6px;
+}
+#header .search .search-list li:hover {
+    background-color: #eee;
+}
+#header .search .shopping-cart {
+    position: absolute;
+    font-size: 12px;
+    color: #e1251b;
+    width: 130px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    top: 0px;
+    left: 566px;
+    border: 1px solid #eee;
+}
+#header .search .shopping-cart:hover {
+    border-color: #e1251b;
+}
+#header .search .shopping-cart .iconfont {
+    font-weight: bold;
+}
+#header .search .shopping-cart .num {
+    position: absolute;
+    width: 17px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e1251b;
+    color: #fff;
+    left: 29px;
+    top: 3px;
+}
+#header .search .shopping-cart .txt {
+    margin-left: 18px;
+}
+#header .search .search-nav {
+    margin-top: 3px;
+}
+#header .search .search-nav li {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+}
+#header .search .search-nav li a {
+    color: #999;
+}
+#header .search .search-nav li a:hover,
+#header .hotwords li a:hover {
+    color: #e1251b;
+}
+#header .search .search-nav li a.red {
+    color: #e1251b;
+}
+#header .hotwords {
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    bottom: 0px;
+    left: 203px;
+}
+#header .hotwords li {
+    float: left;
+    margin: 0 11px;
+    font-size: 15px;
+}
+#header .hotwords li a {
+    color: #333;
+}
+#header .hotwords li a.red {
+    color: #e1251b;
+    font-weight: 700;
+}
